@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    {% include nav.html %}
+
+    {% include author-short-bio.html %}
+    
+    <div class="author-full-bio">
+        {{content}}
+    </div>
+    
+    {% include footer.html %}
+  </body>
+</html>
